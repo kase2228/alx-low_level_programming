@@ -1,19 +1,15 @@
-#include <main.h>
+#include "main.h"
 
-void print_alphabet(void) 
+/**
+ *print_alphabet - make alphabet
+ *Return: void
+ */
+void print_alphabet(void)
 {
-char letter = 'a';
-
-while (letter <= 'z')
-{
-        _putchar(letter);
-        letter++;
-}
-
-    _putchar('\n');
-}
-
-int main() {
-    print_alphabet();
-return (0);
+char c;
+for (c = 'a'; c <= 'z'; c++0)
+    {
+     _putchar(c);
+    }
+     _putchar('\n');
 }
