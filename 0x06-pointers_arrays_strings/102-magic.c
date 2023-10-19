@@ -1,4 +1,15 @@
 #include <stdio.h>
+/**
+ * main - Program's Starting Point
+ *
+ * Description:
+ * This program showcases how to manipulate memory using pointers. It starts
+ * by setting up an integer array 'a' and a pointer 'p.' The objective is to
+ * alter a memory value by utilizing the 'p' pointer, without directly
+ * interacting with the 'a' array.
+ *
+ * Return: 0 (Success)
+ */
 
 int main(void)
 {
